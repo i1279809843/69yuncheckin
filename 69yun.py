@@ -132,7 +132,7 @@ def send_message(msg="", BotToken="", ChatID=""):
         payload = {
             "chat_id": ChatID,
             "text": message_text,
-            "parse_mode": "HTML",
+            "parse_mode": "HTML"
             //"reply_markup": json.dumps(keyboard)
         }
 
